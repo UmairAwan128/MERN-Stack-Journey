@@ -1,0 +1,6 @@
+// run the follwoing command in CMD by being currently in this folder this will create DB named "mongo-exercises" in MongoDb
+// and create a "courses" collection/table in it then insert list of records/documents in the collection/table.All the records
+// are written in file "exercise-data.json" in the form of Array.so run this. first
+
+
+mongoimport --db mongo-exercises --collection courses --drop --file exercise-data.json --jsonArray
